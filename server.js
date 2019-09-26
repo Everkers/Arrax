@@ -5,7 +5,6 @@ const cheerio = require('cheerio');
 const cors = require('cors')
 //Body Parser Middlware
 app.use(express.json())
-app.use(cors)
 const port = process.env.PORT || 3000;
 // const lyrics = require('./Lyrics');
 let Lyrics = {
